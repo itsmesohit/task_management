@@ -39,6 +39,7 @@ Replace username, password, host, port, and database with your actual database c
 3. **Build and Run the Containers**
 
 Use Docker Compose to build and start the containers:
+
     ```bash
     docker-compose up --build
 
@@ -58,20 +59,23 @@ Node.js: Install Node.js
 PostgreSQL: Install PostgreSQL
 
 Steps Clone the Repository
-    
+
     ```bash
-   git clone https://github.com/itsmesohit/task_management.git
-   cd task_manager
+    git clone https://github.com/itsmesohit/task_management.git
+    cd task_manager
 
 Set Up the Backend
 
 Navigate to the app directory:
+
     ```bash
-   cd app
-   Install Python dependencies:
+    cd app
+
+    Install Python dependencies:
+    
     ```bash
-   pip install -r requirements.txt
-   Create a .env file in the app directory with the following conten
+    pip install -r requirements.txt
+    Create a .env file in the app directory with the following conten
 
 
 env
