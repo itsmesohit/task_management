@@ -30,10 +30,10 @@ This repository contains a task manager application with a Python backend and a 
 2. **Create a .env File**
 
 In the root directory of the project, create a .env file with the following content:
+
     ```bash
-    DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
-
-
+    DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require 
+    ```
 Replace username, password, host, port, and database with your actual database credentials.
 
 3. **Build and Run the Containers**
