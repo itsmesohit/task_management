@@ -44,7 +44,7 @@ Use Docker Compose to build and start the containers:
     docker-compose up --build
 
 
-3. **Access the Application**
+4. **Access the Application**
     
 Frontend: http://localhost
 Backend API: http://localhost:3000/api/v1
@@ -94,21 +94,26 @@ Set Up the Frontend
 
 Navigate to the client directory:
 
-cd ../client
+`cd ../client`
+
 Install Node.js dependencies:
 
 
-npm install
+`npm install`
+
 Build the React application:
 
 
-npm run build
+`npm run build`
+
 To serve the frontend locally, you can use a static file server like http-server. Install it globally if you don't have it:
 
-npm install -g http-server
+`npm install -g http-server`
+
 Start the server:
 
-http-server build -p 80
+`http-server build -p 80`
+
 Access the Application
 
 Frontend: http://localhost
