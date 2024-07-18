@@ -72,7 +72,7 @@ Navigate to the app directory:
     cd app
 
     Install Python dependencies:
-    
+
     ```bash
     pip install -r requirements.txt
     Create a .env file in the app directory with the following conten
@@ -80,7 +80,9 @@ Navigate to the app directory:
 
 env
 
-DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
+    ```bash
+    DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
+    
 Replace username, password, host, port, and database with your actual database credentials.
 
 Start the backend server:
