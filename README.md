@@ -3,6 +3,7 @@
 ## Overview
 
 This repository contains a task manager application with a Python backend and a React frontend. The project can be set up and run using Docker or without Docker.
+- Check out live here: [Live](http://13.232.230.71/)
 
 ## Directory Structure
 
