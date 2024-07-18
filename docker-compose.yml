@@ -1,0 +1,21 @@
+version: "24.0.7"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: itsmesohit/predixion_ai_backend:1.0.0
+    ports:
+      - "3000:80"
+    env_file:
+      - .env
+
+  web:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: itsmesohit/predixion_ai_client:1.0.0
+    ports:
+      - "80:80"
+
