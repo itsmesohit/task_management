@@ -40,7 +40,7 @@ Replace username, password, host, port, and database with your actual database c
 
 Use Docker Compose to build and start the containers:
 
-    ```bash
+    
     docker-compose up --build
 
 
@@ -60,7 +60,7 @@ PostgreSQL: Install PostgreSQL
 
 Steps Clone the Repository
 
-    ```bash
+    
     git clone https://github.com/itsmesohit/task_management.git
     cd task_manager
 
@@ -68,20 +68,20 @@ Set Up the Backend
 
 Navigate to the app directory:
 
-    ```bash
+    
     cd app
 
     Install Python dependencies:
 
-    ```bash
+    
     pip install -r requirements.txt
     Create a .env file in the app directory with the following conten
 
 
 env
 
-    ```DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
-    ```
+    DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
+    
 
 Replace username, password, host, port, and database with your actual database credentials.
 
