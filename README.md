@@ -82,12 +82,14 @@ env
 
     ```bash
     DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
-    
+
 Replace username, password, host, port, and database with your actual database credentials.
 
 Start the backend server:
 
-uvicorn app.main:app --host 0.0.0.0 --port 80
+`uvicorn app.main:app --host 0.0.0.0 --port 80`
+
+
 Set Up the Frontend
 
 Navigate to the client directory:
