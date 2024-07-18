@@ -80,8 +80,8 @@ Navigate to the app directory:
 
 env
 
-    ```bash
-    DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
+    ```DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
+    ```
 
 Replace username, password, host, port, and database with your actual database credentials.
 
